@@ -87,8 +87,8 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosturisticosb);
 
-    float densidadepopb = populacaob / areab; // Divide a População da Segunda Carta pela Area da Primeira Carta
-    float pibpercapb = (pibb * 1000000000) / populacaob; // Multiplica o PIB da Segunda Carta por 1000000000 e Divide pela População da Primeira Carta
+    float densidadepopb = populacaob / areab; // Divide a População da Segunda Carta pela Area da Segunda Carta
+    float pibpercapb = (pibb * 1000000000) / populacaob; // Multiplica o PIB da Segunda Carta por 1000000000 e Divide pela População da Segunda Carta
 
     getchar();
     printf("Densidade populacional: %.2f hab/km²\n", densidadepopb);
