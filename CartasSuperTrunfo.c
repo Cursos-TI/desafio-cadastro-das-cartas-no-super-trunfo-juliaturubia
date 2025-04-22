@@ -21,7 +21,7 @@ int main() {
     int pontosturisticosb;
 
 
-    //Entrada da Primeira Carta
+    // Entradas da Primeira Carta
     printf("\nDigite os dados da Primeira Carta:\n");
 
     printf("Estado (letra de A a H): "); // Pergunta ao Usuário
@@ -58,13 +58,13 @@ int main() {
     printf("PIB per capita: %.2f reais\n", pibpercapa);
 
 
-    //Entrada da Segunda Carta
+    // Entradas da Segunda Carta
     printf("\nDigite os dados da Segunda Carta:\n");
 
     printf("Estado (letra de A a H): ");
     scanf(" %c", &estadob);
 
-    getchar(); // limpa o Enter
+    getchar(); // Limpa o Enter
     printf("Código da Carta (ex: A01): ");
     fgets(codigodacartab, sizeof(codigodacartab), stdin);
 
@@ -99,7 +99,7 @@ int main() {
     float superpoderb = (float)populacaob + areab + (pibb * 1000000000) + pontosturisticosb + pibpercapb + (1 / densidadepopb);  //Calcula os Resultados das Váriaveis da Segunda Carta para a Comparação
 
 
-    //Compara os Resultados das Váriaveis da Primeira Carta e da Segunda Carta
+    // Compara os Resultados das Váriaveis da Primeira Carta e da Segunda Carta
     printf("\nComparação de Cartas:\n");  
 
     printf("População: Carta %d venceu %s\n", populacaoa > populacaob ? 1 : 2, populacaoa > populacaob ? "(1)" : "(2)");
